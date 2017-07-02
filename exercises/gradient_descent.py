@@ -1,6 +1,3 @@
-import numpy as np
-
-
 def steepest_descent(x_k, alpha_k, grad_f_k):
     """
     One iteration of simple steepest descent, where the
@@ -11,3 +8,4 @@ def steepest_descent(x_k, alpha_k, grad_f_k):
     :return: x_k+1: value of x at time step k+1, as an np.array
     """
     return x_k - alpha_k * grad_f_k
+
